@@ -1,5 +1,5 @@
 import { CalendarDays } from 'lucide-react'
-import type { View } from './viewTypes'
+import type { View } from '../types'
 
 type TopbarProps = {
   view: View

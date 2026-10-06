@@ -18,3 +18,5 @@ export type DashboardViewProps = {
   onDelete: (employee: Employee) => void
 }
 export type EmployeeDraft = Omit<Employee, 'emp_id'>
+
+export type View = 'dashboard' | 'employees'

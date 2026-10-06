@@ -9,8 +9,8 @@ import { EmployeeDirectory } from './components/EmployeeDirectory'
 import { EmployeeModal } from './components/EmployeeModal'
 import { Sidebar } from './components/Sidebar'
 import { Topbar } from './components/Topbar'
-import type { View } from './components/viewTypes'
-import './App.scss'
+import type { View } from './types'
+import './styles/App.scss'
 
 const PAGE_SIZE = 7
 

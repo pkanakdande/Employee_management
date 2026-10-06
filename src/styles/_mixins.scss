@@ -1,0 +1,21 @@
+@use 'sass:map';
+@use './breakpoints' as *;
+@use './variables' as *;
+
+@mixin respond-to($breakpoint) {
+  @media (max-width: map.get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+
+@mixin card-base {
+  background: $color-surface;
+  border: 1px solid $color-border;
+  border-radius: $radius-lg;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
